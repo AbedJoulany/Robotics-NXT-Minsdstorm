@@ -70,3 +70,49 @@ Fuzzy logic allows for flexible decision-making, especially when the system face
 ## Additional Information
 
 - **Circular Path:** The robot follows a simple circular path without obstacles, focusing solely on path-following accuracy and stability at high speed.
+
+
+# EX2 Mobile Robot Mapping and Navigation Project
+
+## Overview
+This project involves two main tasks: **Mapping** and **Navigation** using a mobile robot equipped with sensors. The robot follows a convex arena's walls, maps the perimeter, and uses the generated map to navigate to various points within the arena.
+
+### Task 1: Mapping the Arena
+The first task is to map the perimeter of the arena using an ultrasonic distance sensor and odometry. The robot follows the walls while keeping a consistent distance using a **PID controller**.
+
+- **Arena Specifications**:
+  - The arena is a convex polygon with fewer than 8 straight walls.
+  - The walls' angles are between 70° and 170°.
+
+- **Process**:
+  1. The robot starts at a marked position near the wall.
+  2. It moves clockwise around the arena, following the walls using the ultrasonic sensor.
+  3. The robot calculates its position using odometry.
+  4. The perimeter is mapped by combining odometry data and sensor readings, creating straight-line segments for the walls.
+
+- **Mapping Implementation**:
+  - The raw sensor data (distance readings and odometry) is processed in Python.
+  - The software fits straight lines to the data using **RANSAC** to ignore noise.
+  - The final map, a closed polygon representing the arena walls, is generated and visualized.
+
+### Task 2: Navigation Using the Map
+The second task involves using the map from Task 1 to navigate the robot to three key points in the arena: the **start point**, the **middle point**, and the **end point**.
+
+- **Process**:
+  1. The robot starts at an unknown location near the arena's perimeter.
+  2. It moves to the **start point** and aligns itself in the correct direction.
+  3. The robot continues to the **middle point**, announces its arrival via a voice message, and waits for further instructions.
+  4. Finally, the robot reaches the **end point**, aligning itself accordingly and announcing its arrival.
+
+- **Navigation Strategy**:
+  - The robot relies on odometry, the map, and sensor data to navigate between points.
+  - Voice commands are used to confirm reaching points, and time is allotted for photos of the robot’s position at each key location.
+
+### Videos
+- [Mapping Task Video](#)
+- [Navigation Task Video](#)
+
+
+2. **Navigation Task**:
+    - The robot will load the map and navigate to the defined points.
+    - The robot will announce each arrival with a voice message.
