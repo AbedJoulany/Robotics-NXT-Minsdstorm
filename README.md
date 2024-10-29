@@ -6,7 +6,7 @@
 
 ## Introduction
 
-This project demonstrates the implementation of two control algorithms—PID (Proportional-Integral-Derivative) and Fuzzy Logic—for robot path following in an offline simulation. The robot follows a circular path without obstacles, aiming to stay on the path while traveling at maximum velocity.
+This project demonstrates the implementation of two control algorithms PID (Proportional-Integral-Derivative) and Fuzzy Logic for robot path following in an offline simulation. The robot follows a circular path without obstacles, aiming to stay on the path while traveling at maximum velocity.
 
 The project was developed to compare the performance of these two algorithms in controlling the robot's movement on a fixed path and maintaining stability at high speeds.
 
