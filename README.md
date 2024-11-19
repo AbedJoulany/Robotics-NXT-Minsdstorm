@@ -112,7 +112,7 @@ The second task involves using the map from Task 1 to navigate the robot to thre
   - Voice commands are used to confirm reaching points, and time is allotted for photos of the robot’s position at each key location.
 
 ### Videos
-- [![Mapping Task Video](https://img.youtube.com/vi/px3fI0Kq2RM/0.jpg)](https://www.youtube.com/watch?v=https://youtu.be/px3fI0Kq2RM)
+- [![Mapping Task Video](https://img.youtube.com/vi/px3fI0Kq2RM/0.jpg)](https://www.youtube.com/watch?v=px3fI0Kq2RM)
 - [Navigation Task Video](#)
 - https://youtube.com/shorts/IOeS5fEo6cg?feature=share
 
