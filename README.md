@@ -113,9 +113,7 @@ The second task involves using the map from Task 1 to navigate the robot to thre
 
 ### Videos
 - [![Mapping Task Video](https://img.youtube.com/vi/px3fI0Kq2RM/0.jpg)](https://www.youtube.com/watch?v=px3fI0Kq2RM)
-- [Navigation Task Video](#)
-- https://youtube.com/shorts/IOeS5fEo6cg?feature=share
-
+- [![Navigation Task Video](https://img.youtube.com/vi/dQDKZyy3hPQ/0.jpg)](https://www.youtube.com/watch?v=dQDKZyy3hPQ)
 
 2. **Navigation Task**:
     - The robot will load the map and navigate to the defined points.
