@@ -62,10 +62,13 @@ Fuzzy logic allows for flexible decision-making, especially when the system face
 ## Videos
 
 - **Fuzzy Logic Control Demo:**  
-  [Insert Fuzzy Logic Video URL here]
+  [![Watch the video]](https://youtu.be/T-D1KVIuvjA)
+
 
 - **PID Control Demo:**  
   [Insert PID Control Video URL here]
+  [![PID Control Video]](https://youtube.com/shorts/H3QYw_YOhr8?feature=share)
+  
 
 ## Additional Information
 
@@ -109,8 +112,9 @@ The second task involves using the map from Task 1 to navigate the robot to thre
   - Voice commands are used to confirm reaching points, and time is allotted for photos of the robot’s position at each key location.
 
 ### Videos
-- [Mapping Task Video](#)
+-   [![Mapping Task Video](https://youtu.be/1CVGPyQMhbA)
 - [Navigation Task Video](#)
+- https://youtube.com/shorts/IOeS5fEo6cg?feature=share
 
 
 2. **Navigation Task**:
