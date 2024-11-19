@@ -61,13 +61,14 @@ Fuzzy logic allows for flexible decision-making, especially when the system face
 
 ## Videos
 
-- **Fuzzy Logic Control Demo:**  
-  [![Watch the video]](https://youtu.be/T-D1KVIuvjA)
+**Fuzzy Logic Control Demo:**
+  
+  [![Fuzzy Logic Video](https://img.youtube.com/vi/dcy70bwZtdM/0.jpg)](https://www.youtube.com/watch?v=dcy70bwZtdM)
 
+**PID Control Demo:**  
+  
+  [![PID Control Video](https://img.youtube.com/vi/QiZ7IdSNQyE/0.jpg)](https://www.youtube.com/watch?v=QiZ7IdSNQyE)
 
-- **PID Control Demo:**  
-  [Insert PID Control Video URL here]
-  [![PID Control Video]](https://youtube.com/shorts/H3QYw_YOhr8?feature=share)
   
 
 ## Additional Information
@@ -112,8 +113,14 @@ The second task involves using the map from Task 1 to navigate the robot to thre
   - Voice commands are used to confirm reaching points, and time is allotted for photos of the robot’s position at each key location.
 
 ### Videos
-- [![Mapping Task Video](https://img.youtube.com/vi/px3fI0Kq2RM/0.jpg)](https://www.youtube.com/watch?v=px3fI0Kq2RM)
-- [![Navigation Task Video](https://img.youtube.com/vi/dQDKZyy3hPQ/0.jpg)](https://www.youtube.com/watch?v=dQDKZyy3hPQ)
+
+**Mapping Task Demo:**
+  
+  [![Mapping Task Video](https://img.youtube.com/vi/px3fI0Kq2RM/0.jpg)](https://www.youtube.com/watch?v=px3fI0Kq2RM)
+
+**Navigation Task Demo:**
+  
+  [![Navigation Task Video](https://img.youtube.com/vi/dQDKZyy3hPQ/0.jpg)](https://www.youtube.com/watch?v=dQDKZyy3hPQ)
 
 2. **Navigation Task**:
     - The robot will load the map and navigate to the defined points.
